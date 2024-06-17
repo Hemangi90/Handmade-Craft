@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 1 - Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bb7d4d;
+            color: #333;
+            background-image: url('https://source.unsplash.com/1600x900/?product');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-details {
+            text-align: center;
+        }
+
+        .card-details p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Featured Products</h1>
+        <div class="row">
+            <div class="card">
+                <img src="images/home_decor1.jpg" alt="Product 1">
+                <div class="card-details">
+                    <p>Balcony Flower Pot Stand for Balcony Living Room</p>
+                    <p>Price: $19.99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/home_decor2.jpg" alt="Product 2">
+                <div class="card-details">
+                    <p>Handicraft Home Decor Kamdhenu Cow & Calf</p>
+                    <p>Price: $25.34</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/home_decor3.jpg" alt="Product 3">
+                <div class="card-details">
+                    <p>Wooden Wall Mounted Plant Shelves for Home Decor</p>
+                    <p>Price: $13.99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/home_decor4.jpg" alt="Product 4">
+                <div class="card-details">
+                    <p>Photo Frame</p>
+                    <p>Price: $54.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="images/home_decor5.jpg" alt="Product 5">
+                <div class="card-details">
+                    <p>LED Artificial Tree</p>
+                    <p>Price: $76.01</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/home_decor6.jpg" alt="Product 6">
+                <div class="card-details">
+                    <p>6-Tier Cart Plant Stand Flower Pot Display Rack Stand</p>
+                    <p>Price: $45.32</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/home_decor7.jpg" alt="Product 7">
+                <div class="card-details">
+                    <p>Craft Mshopr Rustic Round Wooden Serving Tray</p>
+                    <p>Price: $23.71</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/home_decor8.jpg" alt="Product 8">
+                <div class="card-details">
+                    <p>Lucky Owl Statue</p>
+                    <p>Price: $65.46</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

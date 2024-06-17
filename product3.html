@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 2 - Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightpink;
+            background-image: url('https://source.unsplash.com/1600x900/?product');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-details {
+            text-align: center;
+        }
+
+        .card-details p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Featured Products</h1>
+        <div class="row">
+            <div class="card">
+                <img src="images/plant_1.jpg" alt="Product 1">
+                <div class="card-details">
+                    <p>Multiple Flower Pot Holder Shelf</p>
+                    <p>Price: $19.99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/plant_2.jpg" alt="Product 2">
+                <div class="card-details">
+                    <p>Planter Bell Flower Planters Stand</p>
+                    <p>Price: $25.34</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/plant_3.jpg" alt="Product 3">
+                <div class="card-details">
+                    <p>Elegant six-tiered metal plant stand</p>
+                    <p>Price: $13.99</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/plant_4.jpg" alt="Product 4">
+                <div class="card-details">
+                    <p>Metal Plant Hanger Wall Hanging Plant Hook</p>
+                    <p>Price: $54.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="images/plant_5.jpg" alt="Product 5">
+                <div class="card-details">
+                    <p>Plant Shelf Plant Flower Pot Holder Stands</p>
+                    <p>Price: $76.01</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/plant_6.jpg" alt="Product 6">
+                <div class="card-details">
+                    <p>Hand printed ceramic wall planter</p>
+                    <p>Price: $45.32</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/plant_7.jpg" alt="Product 7">
+                <div class="card-details">
+                    <p>Corner garden balcony</p>
+                    <p>Price: $23.71</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/plant_8.jpg" alt="Product 8">
+                <div class="card-details">
+                    <p>Plant stand for balcony</p>
+                    <p>Price: $65.46</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
